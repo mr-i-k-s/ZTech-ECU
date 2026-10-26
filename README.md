@@ -1,11 +1,14 @@
-<h1 align="center">ZTech ECU</h1>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.png">
+    <img alt="ZTech ECU" src="logo-light.png" width="180">
+  </picture>
+  <h2>Engine Control Unit</h2>
+</div>
 
 <p align="center">
-  <img src="docs/assets/logo.png" alt="ZTech ECU" width="640">
-</p>
-
-<p align="center">
-  <img alt="Status"   src="https://img.shields.io/badge/Status-in%20Entwicklung-yellow">
+  <img alt="Status"   src="https://img.shields.io/badge/Status-in%20development-yellow">
+  <img alt="Firmware" src="https://img.shields.io/badge/Firmware-v0.01-blue">
   <img alt="MCU"      src="https://img.shields.io/badge/MCU-ATmega32U4-orange">
   <img alt="Tuning"   src="https://img.shields.io/badge/Tuning-TunerStudio-informational">
   <img alt="License"  src="https://img.shields.io/badge/License-GPLv3-green">
@@ -14,39 +17,37 @@
 </p>
 
 <p align="center">
-  <b>Ein quelloffenes, DIY-freundliches Motorsteuergerät (ECU) auf STM32-Basis.</b>
+  <b>An open-source, DIY-friendly Engine Management System (ECU) based on ATmega32U4.</b>
 </p>
 
 ---
 
-## Über das Projekt
+## About
 
-Die ZTech ECU v3 ist ein frei verfügbares Motorsteuergerät – Hardware, Firmware und
-Konfiguration an einem Ort. Abgestimmt wird über TunerStudio (Signatur `speeduino`),
-geflasht wird komfortabel per DFU. Ziel ist eine nachbausichere, bezahlbare ECU für
-Bastler und Enthusiasten.
+ZTech ECU is an open engine management system – hardware, firmware and
+configuration in one place. Tuning is done through TunerStudio, and flashing is done conveniently over USB. The goal is an affordable, simple, reproducible ECU for hobbyists and enthusiasts.
 
 ## Features
 
-- STM32-basiert, kompakt, für den realen Motoreinbau
-- TunerStudio-kompatibel (Signatur `speeduino`)
-- Offene Firmware, per DFU flashbar
-- Schaltplan, Pinbelegung und Stückliste frei verfügbar
+- ATmega-based, compact, built for real in-vehicle use
+- TunerStudio compatible
+- Open firmware, flashable over USB DFU Bootloader
+- Schematic and Code freely available
 
-## Dokumentation
+## Documentation
 
-Die ausführliche Anleitung folgt in Kürze. *(Platzhalter für den späteren Wiki-Link.)*
+Full documentation coming soon.
 
-## Firmware flashen
+## Flashing the firmware
 
 > [!WARNING]
-> Firmware **ausschließlich per DFU** flashen – kein ISP-Erase, sonst ist der
-> Bootloader weg. Bootloader-Modus nur über den BOOT-Taster aktivieren.
+> Flash the firmware **over USB DFU Bootloader only** – no ISP erase, or the bootloader will be
+> lost. Enter bootloader mode only via the BOOT button.
 
-## Mitmachen
+## Contributing
 
-Issues und Pull Requests sind willkommen. Aufbau des Repos und Hinweise folgen.
+Issues and pull requests are welcome.
 
-## Lizenz
+## License
 
-Veröffentlicht unter der GPL-3.0-Lizenz.
+Released under the GPL-3.0 license.
