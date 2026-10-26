@@ -1,8 +1,7 @@
-<h1 align="center">ZTech ECU v3</h1>
+<h1 align="center">ZTech ECU</h1>
 
 <p align="center">
   <img alt="Status"   src="https://img.shields.io/badge/Status-in%20Entwicklung-yellow">
-  <img alt="Firmware" src="https://img.shields.io/badge/Firmware-v0.05-blue">
   <img alt="MCU"      src="https://img.shields.io/badge/MCU-STM32-orange">
   <img alt="Tuning"   src="https://img.shields.io/badge/Tuning-TunerStudio-informational">
   <img alt="License"  src="https://img.shields.io/badge/License-GPLv3-green">
