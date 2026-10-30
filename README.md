@@ -21,13 +21,12 @@
   <b>An open-source, DIY-friendly Engine Management System (ECU) based on ATmega32U4.</b>
 </p>
 
+---
 <div align="center">
   <picture>
     <img alt="ZTech ECU" src="3D_PCB1_2026-10-30.png" width="680">
   </picture>
 </div>
-
----
 
 ## About
 
