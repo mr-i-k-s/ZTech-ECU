@@ -54,10 +54,6 @@ configuration in one place. Tuning is done through TunerStudio, and flashing is 
 - **Robust sync:** gap detection against the neighbor average, stable even with compression-induced speed swings while cranking
 - **Noise filtering** at standstill and while running, with a sync-loss counter
 
-### 🚦 Speed Limiter
-- **PI controller** on wheel speed
-- **Smooth intervention:** ignition retard first, then spark cut (max. 90 %)
-
 ### 🌡️ Sensors & Diagnostics
 - TPS (optional second sensor for plausibility check, also counter-rotating), coolant and intake air temperature, battery voltage
 - **IAT optional:** runs without an intake air sensor
